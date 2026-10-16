@@ -1,0 +1,8 @@
+target: exp(-4 X^2); finite even Chebyshev degrees M=2,4,6,8,10,12
+reference: independent binary128 midpoint cosine sums at 512/1024 nodes, then binary128 Chebyshev-to-power conversion
+comparison: existing MPFR Bessel construction at 224/320 bits, rounded once to binary128 physical-power coefficients
+coefficient differences here are binary128 differences, not an unrounded MPFR precision certificate
+fixed absolute/relative tolerances:    9.9999999999999999999999999999999994E-0028    9.9999999999999999999999999999999997E-0026
+maximum_difference_over_mixed_limit:    7.4930603228099434795649063120269280E-0007
+HOLD_coefficients: 0
+status=PASS

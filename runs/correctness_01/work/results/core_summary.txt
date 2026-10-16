@@ -1,0 +1,9 @@
+ stability_count=          45  max_mp224_relative=   2.1767942499348938E-016  max_reference_change=   2.6949567422899105E-016  max_far_GL20_change=   2.6949567422899105E-016  binary64_88_z10=  0.42159882901230755     
+ moment_count=          72  max_scaled=   3.6132581638736737E-016  max_reference_change=   3.6132581638736737E-016
+ gamma_count=          21  max_scaled=   1.7400088015376963E-016
+ signed_transient_count=          36  max_scaled=   7.1949863499444455E-017
+ scaling_error=   5.5511151231257827E-017  affine_error=   5.5511151231257827E-017
+ fresh_corner_count=          12  max_scaled=   6.3399378513214957E-016
+ operator_count=          12  max_excess=   0.0000000000000000     
+ finite_pulse_farfield_relative=   2.4999919581158991E-006
+ status=PASS

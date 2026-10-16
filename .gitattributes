@@ -1,0 +1,6 @@
+# Scientific evidence fingerprints require unchanged bytes after checkout.
+* -text
+*.csv -text
+*.dat binary
+*.png binary
+*.pdf binary

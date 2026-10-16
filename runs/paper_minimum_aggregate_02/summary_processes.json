@@ -1,0 +1,117 @@
+{
+  "native_program": "paper_minimum/build/release/replay_summary",
+  "results": [
+    {
+      "axis": "cpu",
+      "group": "uniform_N1",
+      "code": 0,
+      "signal": null,
+      "log": "SUMMARY_COMPLETE comparisons=8 budget=0\n"
+    },
+    {
+      "axis": "cpu",
+      "group": "repeat100",
+      "code": 0,
+      "signal": null,
+      "log": "SUMMARY_COMPLETE comparisons=20 budget=0\n"
+    },
+    {
+      "axis": "cpu",
+      "group": "repeat10",
+      "code": 0,
+      "signal": null,
+      "log": "SUMMARY_COMPLETE comparisons=20 budget=0\n"
+    },
+    {
+      "axis": "cpu",
+      "group": "deficit",
+      "code": 0,
+      "signal": null,
+      "log": "SUMMARY_COMPLETE comparisons=12 budget=0\n"
+    },
+    {
+      "axis": "cpu",
+      "group": "deep_Q",
+      "code": 0,
+      "signal": null,
+      "log": "SUMMARY_COMPLETE comparisons=4 budget=69\n"
+    },
+    {
+      "axis": "wall",
+      "group": "repeat10",
+      "code": 0,
+      "signal": null,
+      "log": "SUMMARY_COMPLETE comparisons=20 budget=0\n"
+    },
+    {
+      "axis": "wall",
+      "group": "uniform_N1",
+      "code": 0,
+      "signal": null,
+      "log": "SUMMARY_COMPLETE comparisons=8 budget=0\n"
+    },
+    {
+      "axis": "wall",
+      "group": "repeat100",
+      "code": 0,
+      "signal": null,
+      "log": "SUMMARY_COMPLETE comparisons=20 budget=0\n"
+    },
+    {
+      "axis": "cpu",
+      "group": "budget3",
+      "code": 0,
+      "signal": null,
+      "log": "SUMMARY_COMPLETE comparisons=12 budget=226\n"
+    },
+    {
+      "axis": "wall",
+      "group": "deep_Q",
+      "code": 0,
+      "signal": null,
+      "log": "SUMMARY_COMPLETE comparisons=4 budget=69\n"
+    },
+    {
+      "axis": "wall",
+      "group": "deficit",
+      "code": 0,
+      "signal": null,
+      "log": "SUMMARY_COMPLETE comparisons=12 budget=0\n"
+    },
+    {
+      "axis": "cpu",
+      "group": "shared7",
+      "code": 0,
+      "signal": null,
+      "log": "SUMMARY_COMPLETE comparisons=56 budget=384\n"
+    },
+    {
+      "axis": "wall",
+      "group": "budget3",
+      "code": 0,
+      "signal": null,
+      "log": "SUMMARY_COMPLETE comparisons=12 budget=223\n"
+    },
+    {
+      "axis": "cpu",
+      "group": "main100",
+      "code": 0,
+      "signal": null,
+      "log": "SUMMARY_COMPLETE comparisons=400 budget=157\n"
+    },
+    {
+      "axis": "wall",
+      "group": "main100",
+      "code": 0,
+      "signal": null,
+      "log": "SUMMARY_COMPLETE comparisons=400 budget=154\n"
+    },
+    {
+      "axis": "wall",
+      "group": "shared7",
+      "code": 0,
+      "signal": null,
+      "log": "SUMMARY_COMPLETE comparisons=56 budget=378\n"
+    }
+  ]
+}

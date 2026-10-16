@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated article."
+type: software
+title: "Dirichlet half-space semi-analytical solution: numerical reproduction package"
+authors:
+  - given-names: "Chunxiao"
+    family-names: "Zheng"
+    orcid: "https://orcid.org/0009-0005-9093-6092"

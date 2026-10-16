@@ -1,0 +1,15 @@
+ table_s2_cases=           6
+stability.csv rows=45
+moment_regression.csv rows=72
+gamma_regression.csv rows=21
+signed_transient.csv rows=36
+final_corner_checks.csv rows=12
+final_operator_checks.csv rows=12
+case1_profiles.csv rows=150
+case2_profiles.csv rows=600
+ Gaussian_convergence_orders=           6  all_banks_and_precision_status=PASS
+ fresh_depth_nodes=         401  fresh_roots=         802
+ fresh_max_SAS_relative=   6.8545329356997658E-012  reference_refinement=   2.8197324517559209E-015
+ table_root_count=          24  max_relative=   6.3862714032070645E-012  reference_refinement=   1.2086969875098539E-015
+ q90=  0.29218718707759150       c90=  0.85561588959618373     
+ status=PASS

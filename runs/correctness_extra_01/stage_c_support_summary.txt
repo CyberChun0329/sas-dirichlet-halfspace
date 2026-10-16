@@ -1,0 +1,6 @@
+Pure Fortran reduction of caller-selected fresh results; no physical solver or performance callback invoked.
+Fixed mixed tolerances: Case1 1e-15+1e-12|ref|; root agreement 1e-15+1e-9|ref|; root refinement 1e-15+1e-11|ref|.
+Periodic absolute tolerance 1e-9; history refinement uses the existing bound+1e-9. OBSERVE rows have no new numerical acceptance limit.
+Gaussian reference80/120 mixed tolerance 1e-15+1e-12|ref|; same-polynomial 1e-15+1e-11|ref|; SAS tolerance change 1e-11 absolute; stored cosine change 1e-12 absolute.
+HOLD_checks=0
+status=PASS

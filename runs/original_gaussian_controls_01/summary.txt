@@ -1,0 +1,6 @@
+original_control_rows=8
+HOLD_controls=0
+fixed_absolute_tolerance=  2.00000000000000007E-010
+maximum_finite_difference=  1.38777878078144568E-017
+scope=original six n64 polynomial controls and two n32 dual-route scale/identity controls
+performance_timing=not_executed

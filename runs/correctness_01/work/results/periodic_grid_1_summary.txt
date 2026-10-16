@@ -1,0 +1,22 @@
+depth_count=12
+independent_derivative_root_count=24
+selected_refinement_count=2
+max_reference_temperature_difference= 1.8873791418627661E-015
+max_reference_swing_difference= 1.9984014443252818E-015
+max_stationary_swing_difference= 6.6613381477509392E-016
+max_stationary_phase_difference= 1.6834746929816902E-009
+max_independent_derivative_difference= 6.5627026913273092E-016
+max_derivative_root_residual= 6.4002680942515659E-009
+max_phase128_to512_swing_change= 1.1102230246251565E-016
+max_order64_16_to128_32_swing_change= 3.3306690738754696E-016
+max_history400_to800_swing_change= 6.7864568131792424E-012
+max_history_change_divided_by_analytic_bound= 8.1453049823172280E-002
+max_spatial48_SAS_swing_difference= 3.8857805861880479E-016
+max_spatial32_to48_swing_change= 7.7715611723760958E-016
+max_tail_temperature= 2.9764172598086941E-007
+max_tail_swing= 1.1196458904450373E-009
+max_zeta_EM_remainder= 1.8321174494484723E-036
+max_zeta_16_to32_refinement= 2.3509887016445750E-038
+failed_depth_acceptance=0
+status=PASS
+Extrema are numerical estimates, without interval certification.

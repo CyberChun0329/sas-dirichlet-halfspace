@@ -1,0 +1,16 @@
+# Local build products and regenerated figures are excluded from this snapshot.
+/build/
+.DS_Store
+__pycache__/
+*.pyc
+*.o
+*.mod
+*.dSYM/
+# Third-party arrays and native public references embed thermal-map fields.
+# Keep locally; redistribution permission must be resolved before adding them.
+/input/*_output.dat
+/input/*_shape.txt
+/input/*_A_queries.dat
+/input/*_B_queries.dat
+/input/conversion_receipt.json
+/runs/stage_d_candidates_02/pub_*/reference_*.dat

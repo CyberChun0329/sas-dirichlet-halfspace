@@ -1,0 +1,21 @@
+&policy
+ coarse_nodes=2,4,6,8,12,16,24,32,0,0,0,0
+ coarse_count=8
+ audit_nodes=2,4,6,8,12,16,24,32,36,40,44,48
+ audit_count=12
+ max_refinement_rounds=3
+ formal_selection_passes=3
+ coarse_windows=1
+ formal_windows=9
+ coarse_min_window=.001
+ formal_min_window=.004
+ callback_limit_seconds=30
+ candidate_timeout_seconds=60
+ call_limit=10000000
+ reference_job_timeout_seconds=7200
+ job_timeout_seconds=1800
+ public_job_timeout_seconds=7200
+ max_workers=8
+ minimum_free_gib=12
+ formal_allowed=.true.
+/

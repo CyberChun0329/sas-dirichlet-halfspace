@@ -1,0 +1,25 @@
+release=18d62141e6be3ba2b5756c124a9d42570f63d38d3ff02b2614481e18d10704d4
+job=paper_0049_N1
+mode=EXPLICIT_FINITE_LISTED_POOL
+clock_anchor_date=20261016 time=043052.789 zone=+0800
+ clock_anchor_before_after_rate_max=  1792096252789280000  1792096252789683000           1000000000  9223372036854775807
+reference=runs/stage_d_candidates_01/poly_paper/references.dat
+cached_rows=runs/stage_d_candidates_01/poly_paper/coarse_rows.csv
+cached_values=runs/stage_d_candidates_01/poly_paper/coarse_values.csv
+explicit_keys=runs/paper_minimum_inputs_01/keys/paper_0049_N1.csv
+coarse_rounds=0
+fresh_correctness=0
+generated_candidates=0
+reference_generation=0
+cost_protocol=native_paired_formal_nine_windows_explicit_one_to_one_v1
+comparison_scope=finite_listed_pool; ALL_SPACE uses only measured non-SAS listed keys
+reference_certified is the stored refinement/cross-check decision, not a true-error proof
+cached_correctness_rows.csv retains historical costs for provenance only; rows.csv contains new costs
+ prep_budget_shared= F F F
+ caps=   9.9999999999999995E-007
+ formal_windows_minimum_seconds=           9   4.0000000000000001E-003
+ callback_return_soft_limit_seconds=   30.000000000000000     
+ candidate_scope_soft_limit_seconds=   60.000000000000000     
+ query_context_preparation_attempts=          10
+ prep_query_total_candidate_scope_attempts=           0          10          10
+ prep_query_total_callback_calls=                    0                 4260                 4167

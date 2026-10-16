@@ -1,0 +1,5 @@
+ input_nodes=         401  chunk=           1  computed_roots=         102  max_SAS_relative=   6.7842439806543349E-012  max_reference_refinement=   2.8197324517559209E-015
+ geometry=           1  shallow_reduction_percent=   24.611562943408959       deep_reduction_percent=  0.33675854701062935     
+ geometry=           2  shallow_reduction_percent=   33.334189234743242       deep_reduction_percent=   2.7243888250488402     
+ geometry=           3  shallow_reduction_percent=   33.854603851680487       deep_reduction_percent=   4.2771784102238586     
+ status=PASS

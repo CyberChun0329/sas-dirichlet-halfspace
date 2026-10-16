@@ -1,0 +1,1086 @@
+{
+  "numerical_release": "18d62141e6be3ba2b5756c124a9d42570f63d38d3ff02b2614481e18d10704d4",
+  "interpretation": "The numerical release labels saved evidence and references. Current distributed source identities are recorded separately below and in SHA256SUMS.",
+  "measurement_identity_hashes": [
+    "9a1ae1264f64afe784a106e4f0922da576c57a88243c514248bf5543417780ca",
+    "8cb209382017e29a82ee9b9f9491c8d35a4d7995ae6ff291e9dbec77611e1239"
+  ],
+  "source_files": [
+    {
+      "path": "paper_minimum/replay_summary.f90",
+      "recorded_sha256": "6b8262becf5874669d4c72e83bba2d82f36dbea7667ee874940e720831713663",
+      "distributed_sha256": "6b8262becf5874669d4c72e83bba2d82f36dbea7667ee874940e720831713663"
+    },
+    {
+      "path": "paper_minimum/targeted_driver.f90",
+      "recorded_sha256": "cf936db8720c96aa8bcc6344c2e74031c9dc2f02301846d8b079df93730fe8d5",
+      "distributed_sha256": "cf936db8720c96aa8bcc6344c2e74031c9dc2f02301846d8b079df93730fe8d5"
+    },
+    {
+      "path": "src/performance/paired_measure.f90",
+      "recorded_sha256": "88704224e1b63ac25e8457b9a5eff5db42ae54151823885c9d8bdd8249a58d45",
+      "distributed_sha256": "88704224e1b63ac25e8457b9a5eff5db42ae54151823885c9d8bdd8249a58d45"
+    },
+    {
+      "path": "src/performance/unified_engine.f90",
+      "recorded_sha256": "ee835530fae7dbd58e5af222fef485ad17583ab7f67cca7d5311af62f454c627",
+      "distributed_sha256": "8c933305a09d984f6619185aec5be1a1725883f9ab31204da2ba4027b6e80447"
+    },
+    {
+      "path": "src/performance/unified_poly_driver.f90",
+      "recorded_sha256": "5fd2c659ec1872a241035ebbba44e90a6d0eea3933c04a2180444d1b508a8a42",
+      "distributed_sha256": "8f26f8824d5e96bbb7a10225af4c42cd76451379e370de410b3236d37d760628"
+    },
+    {
+      "path": "src/performance/unified_poly_reference.f90",
+      "recorded_sha256": "5d149d52810d033496beb35905e45d80b9be4b7fa07b3c9820fa5c8747779c68",
+      "distributed_sha256": "5d149d52810d033496beb35905e45d80b9be4b7fa07b3c9820fa5c8747779c68"
+    },
+    {
+      "path": "src/unified_policy.f90",
+      "recorded_sha256": "5693838293883032c7a041fe500f2af54839fd59de8e4547a2fbb180b49054ff",
+      "distributed_sha256": "5693838293883032c7a041fe500f2af54839fd59de8e4547a2fbb180b49054ff"
+    },
+    {
+      "path": "src/validation/mp_arithmetic.f90",
+      "recorded_sha256": "ead925d16cba95c67cfa6e3bd0e34d08f338175e4bc95eb9adfbff87dbac8a7d",
+      "distributed_sha256": "ead925d16cba95c67cfa6e3bd0e34d08f338175e4bc95eb9adfbff87dbac8a7d"
+    },
+    {
+      "path": "src/validation/mp_moments.f90",
+      "recorded_sha256": "4ed1aa153f6dd68512146a1c07b157df0df967dd70c4c810ef16bb69cd070745",
+      "distributed_sha256": "4ed1aa153f6dd68512146a1c07b157df0df967dd70c4c810ef16bb69cd070745"
+    },
+    {
+      "path": "src/validation/periodic_driver.f90",
+      "recorded_sha256": "89a3d8d869e4ace7b8fb216ae5cfe983e1f2fbecb206cc66a60f883e8078717d",
+      "distributed_sha256": "86acdc4e2201c86ab4472381f82e96684b09807b32ac36bf7e056a2fe68977a4"
+    },
+    {
+      "path": "src/validation/periodic_validation.f90",
+      "recorded_sha256": "bca062c037e6c0820f6b03019e9c54f2c2d5bfd6cb3db3b2fac37a69d07af0b1",
+      "distributed_sha256": "ade247f1aaf7e62a7eeb7d3d1652b5892db5ac3c52eb9993853a4651239fa88f"
+    },
+    {
+      "path": "src/validation/precision_driver.f90",
+      "recorded_sha256": "6d84b421d69f1bda3b98338b29771769f70ac4ddaeb47ac5f6f942bcc525d262",
+      "distributed_sha256": "6d84b421d69f1bda3b98338b29771769f70ac4ddaeb47ac5f6f942bcc525d262"
+    },
+    {
+      "path": "src/validation/spatial_reference.f90",
+      "recorded_sha256": "f3edb56e356ca08c943f3e5d1bc81eef546fbd7ccede5418c41ddd5ea7640c8f",
+      "distributed_sha256": "f3edb56e356ca08c943f3e5d1bc81eef546fbd7ccede5418c41ddd5ea7640c8f"
+    },
+    {
+      "path": "src/validation/summarize_validation.f90",
+      "recorded_sha256": "2529bb81351072935c0b3d98f0b0984efef591a64e0cd766f961093cfc64da17",
+      "distributed_sha256": "2529bb81351072935c0b3d98f0b0984efef591a64e0cd766f961093cfc64da17"
+    },
+    {
+      "path": "src/validation/validation_driver.f90",
+      "recorded_sha256": "afe5ee8dbe8030c921775c3dde361a244f328a621a2780e963657133a5159ce4",
+      "distributed_sha256": "afe5ee8dbe8030c921775c3dde361a244f328a621a2780e963657133a5159ce4"
+    },
+    {
+      "path": "src/validation/validation_sas.f90",
+      "recorded_sha256": "33036a4b9bd050b60497857f1caa88047d36a6e45af5f249ab17dcf83d983c77",
+      "distributed_sha256": "33036a4b9bd050b60497857f1caa88047d36a6e45af5f249ab17dcf83d983c77"
+    },
+    {
+      "path": "stage_c_support/gaussian_coeff_check.f90",
+      "recorded_sha256": "2ba6bd977e2a4ef65ff3631dbd5e01dc28d378a74ebc3a63a9d7d5174dd08434",
+      "distributed_sha256": "2ba6bd977e2a4ef65ff3631dbd5e01dc28d378a74ebc3a63a9d7d5174dd08434"
+    },
+    {
+      "path": "stage_c_support/gaussian_original_controls.f90",
+      "recorded_sha256": "829124cd6759852942ae7ce37055c097a274b8b2e93f2740e88f9c0334d906aa",
+      "distributed_sha256": "829124cd6759852942ae7ce37055c097a274b8b2e93f2740e88f9c0334d906aa"
+    },
+    {
+      "path": "stage_c_support/stage_c_reduce.f90",
+      "recorded_sha256": "7f880f684ff82e50b4741b7a173722b8df2aa7736ebe8aa3ae604c4a2a4d1c3a",
+      "distributed_sha256": "1a18e6efb2b6faf0896b7dce0c42be45313d265db868b1bf57eff30033fd24b1"
+    },
+    {
+      "path": "tests/core/temperature_unit.f90",
+      "recorded_sha256": "19beb583e87ce12efcff53abdb846a5154c06ab9ce006482c99cdd3d115c875e",
+      "distributed_sha256": "19beb583e87ce12efcff53abdb846a5154c06ab9ce006482c99cdd3d115c875e"
+    },
+    {
+      "path": "tests/core/test_axis_recurrence.f90",
+      "recorded_sha256": "cd5b2f9934eda74fc3e9c3afe01f3d45414297671a425a59b27bdeceb7142e9f",
+      "distributed_sha256": "cd5b2f9934eda74fc3e9c3afe01f3d45414297671a425a59b27bdeceb7142e9f"
+    },
+    {
+      "path": "tests/core/test_case_bank.f90",
+      "recorded_sha256": "b366be4f4ce06a27c623597fcdad595428bff5920929227ea9dd89e40396d64d",
+      "distributed_sha256": "7d87c199fb7abffba655bce8b1471245db5e6d491d3cbb08d76121d2781ffa3d"
+    },
+    {
+      "path": "tests/core/test_replay_measure.f90",
+      "recorded_sha256": "b684ba4bcbc32d29841182a3c647916e55c2126907394489c3ebd1a164f3919e",
+      "distributed_sha256": "b684ba4bcbc32d29841182a3c647916e55c2126907394489c3ebd1a164f3919e"
+    },
+    {
+      "path": "tests/core/test_replay_select.f90",
+      "recorded_sha256": "172e1930aedada5dcb3bdcee3f5d3ba6f827b965c0a6d70781c5614fe853fec1",
+      "distributed_sha256": "3eae5361a09e48d669047434459064afe45190d8a88a32585bea868f663aa643"
+    },
+    {
+      "path": "tests/core/test_sas_general.f90",
+      "recorded_sha256": "cc458999e9c9f9f6c510d1ff511fd9bc9315778a67f7aa38ea7294a43989e6f6",
+      "distributed_sha256": "6c69b3b72ba98fc65b02cdaa75b798aac60315ae23a64c576cbdc732988ca5d0"
+    },
+    {
+      "path": "tests/core/test_source_projection.f90",
+      "recorded_sha256": null,
+      "distributed_sha256": "2b0e0a8cef77faf78e72a0f5a57d62934d26d9c648c9d8b7bc0247862efb740b"
+    },
+    {
+      "path": "tests/core/test_spatial_routes.f90",
+      "recorded_sha256": "b41a300b7af8a5053cbfd1d7924a09e11472e5f81b2d43da466cadb4dd843e41",
+      "distributed_sha256": "a307340b5ed743878e397da9fc38d88f7645cb8862baa6547ae4ead454e55d21"
+    },
+    {
+      "path": "tests/core/test_svd_factor_routes.f90",
+      "recorded_sha256": "c1e57858b7c3017ba0c75ae317eb75bdcf1e00481de6fa74f6fb835a95c6f3ff",
+      "distributed_sha256": "71bb15e358d4e7e33f0a59b04a81c899b95d516d12b03f3a96a99c03ce28105a"
+    },
+    {
+      "path": "tests/performance/test_paired_measure.f90",
+      "recorded_sha256": "3b2bfc34dc961b0db5f55109ee47c06917d45f3edc1f5280d2bd23c252de8647",
+      "distributed_sha256": "3b2bfc34dc961b0db5f55109ee47c06917d45f3edc1f5280d2bd23c252de8647"
+    },
+    {
+      "path": "tests/performance/test_unified_engine.f90",
+      "recorded_sha256": "8e5034eb2fc02bf99487886d5bcb410b2bf06b5ccec2e48b242bc90905fa7cf6",
+      "distributed_sha256": "c9bb82f5a359b3836b56d0e1cef838e3aaea648964c7890c127d5bc14f18d2c7"
+    },
+    {
+      "path": "tests/performance/test_unified_reference.f90",
+      "recorded_sha256": "108280af218e7b81c6d6ffd525d640e0d7373d3cbadcaa5e856ba2c8bc968851",
+      "distributed_sha256": "108280af218e7b81c6d6ffd525d640e0d7373d3cbadcaa5e856ba2c8bc968851"
+    },
+    {
+      "path": "tests/test_policy.f90",
+      "recorded_sha256": "cddb2287d91e232ffa57909201653e8de82416b3214b99c1363e7a532c86fe6c",
+      "distributed_sha256": "cddb2287d91e232ffa57909201653e8de82416b3214b99c1363e7a532c86fe6c"
+    },
+    {
+      "path": "tests/validation/validation_smoke.f90",
+      "recorded_sha256": "2f64366a420d018e0a80749d2a5fa6093d7cf4934fd6242adfe71e78a73b63af",
+      "distributed_sha256": "2f64366a420d018e0a80749d2a5fa6093d7cf4934fd6242adfe71e78a73b63af"
+    },
+    {
+      "path": "vendor/core/prepared_sas.f90",
+      "recorded_sha256": "bc2ea00bea05973deba465654fe9d7640ea04d5c969224de6a14c1f3148a1f57",
+      "distributed_sha256": "bc2ea00bea05973deba465654fe9d7640ea04d5c969224de6a14c1f3148a1f57"
+    },
+    {
+      "path": "vendor/core/prepared_space.f90",
+      "recorded_sha256": "3d902277d3c4173168b5fbacabb4a09be6b9d6440c18afe179fe58bf937acc72",
+      "distributed_sha256": "3d902277d3c4173168b5fbacabb4a09be6b9d6440c18afe179fe58bf937acc72"
+    },
+    {
+      "path": "vendor/core/temperature_common.f90",
+      "recorded_sha256": "b78ae6562b473138ec1f219dbd26df712809c82d7aee8627f583c4ffcec91b4d",
+      "distributed_sha256": "b78ae6562b473138ec1f219dbd26df712809c82d7aee8627f583c4ffcec91b4d"
+    },
+    {
+      "path": "vendor/core/three_dimensional_analysis.f90",
+      "recorded_sha256": "2dff14c854f04782f894c232474057cd97b5eebca6d334a3a346eaf9aed19926",
+      "distributed_sha256": "2dff14c854f04782f894c232474057cd97b5eebca6d334a3a346eaf9aed19926"
+    },
+    {
+      "path": "vendor/performance/gaussian_axes.f90",
+      "recorded_sha256": "8d4e17be9db1126a1bb1b6b2b6e06276fbc514cab6603d3fdb87a8c3bc11fcf0",
+      "distributed_sha256": "de61fe46e2813decd7c3e64cb5ce76d9296f30317a91b68cf311f3a0991ccf10"
+    },
+    {
+      "path": "vendor/performance/replay_case_bank.f90",
+      "recorded_sha256": "ffc6ea37558b20a6c8b526c5b9d55188920707fada8e89cbae446db82b0d1c36",
+      "distributed_sha256": "f124be391732ef4469b155c87968238ab904964c98858edad0ad45543f4bff02"
+    },
+    {
+      "path": "vendor/performance/replay_measure.f90",
+      "recorded_sha256": "3d38bdfde211b3dbbcab5e703e5f8fef126eb157d8f68966ebdd017920c21fd1",
+      "distributed_sha256": "df4a1a211ba90413241386e332b2a1a5a1d67d4e0410dbf298abbb4cdad15469"
+    },
+    {
+      "path": "vendor/performance/replay_select.f90",
+      "recorded_sha256": "29794c10326d21de6c691752e38d8b718539eaa1be0b531ed760f90e87b8848b",
+      "distributed_sha256": "3f4c7b7b625624cbde928a0effe415128846e9cc61187dd41ca709d6d00e2da9"
+    },
+    {
+      "path": "vendor/performance/replay_types.f90",
+      "recorded_sha256": "2eca8644139fc272c8814d6f83f6778bdad5927361eef8b7ad9ecb6c56749bdc",
+      "distributed_sha256": "0e5b7ad6607a56d5ef2288c9b5e363d8ec36b816e167c16e09fba4e2084a7096"
+    },
+    {
+      "path": "vendor/performance/sas_general.f90",
+      "recorded_sha256": "12f36343c18115fccbd95db384255749212fa34b4addc005c4e7c8d156ee83ec",
+      "distributed_sha256": "cc07bea83a920db630f83981cad23588c280c948ebef325f6e408babfe41f3c9"
+    },
+    {
+      "path": "vendor/performance/source_projection.f90",
+      "recorded_sha256": "4901db07e227dbe75fd1e687e02260ba2d4da26a86fcefd2b44df553af337194",
+      "distributed_sha256": "5700ab10a7bcac1700603225886516bc13401ab59b1264a7bc5f13ccc8c7027c"
+    },
+    {
+      "path": "vendor/performance/spatial_routes.f90",
+      "recorded_sha256": "d390b0395e1ffbe178c103e71bec831ab6748426fd7f42f0abc0c1d2b55bbfe7",
+      "distributed_sha256": "731a506413a9f37308e2c30b39535e85b24f15666a9c2081eb5c6f0ded789a2a"
+    },
+    {
+      "path": "vendor/performance/svd_factor_routes.f90",
+      "recorded_sha256": "995d1b9a92a22ea283447ec9047a77d65ea2cab88a68914c7dd306999affeca4",
+      "distributed_sha256": "d76448ab6d17507e19c71ec735dc13b942148c5ec06089226431824e36b9cbc1"
+    },
+    {
+      "path": "vendor/performance/useful_screening.f90",
+      "recorded_sha256": "e952ac79fdd24475b42c28531a5e1f19b9b79168c5d16a055063a3657e9e002c",
+      "distributed_sha256": "6d5ab8644c0bbff264a0482cd0ad4991ee30cdf30434738b1d327bb7006eb87c"
+    }
+  ],
+  "evidence_column_and_line_selections": [
+    {
+      "path": "runs/correctness_01/work/results/periodic_grid_1.csv",
+      "source_sha256": "6fa13b127a827d5473d6d1b1b5abfe757df38c96a1b293fc0813f9fa42e6a634",
+      "source_bytes": 12391,
+      "method": "literal CSV column selection; retained fields and row order unchanged",
+      "retained_columns": [
+        "j",
+        "L",
+        "profile",
+        "d",
+        "z",
+        "tmin",
+        "tmax",
+        "minimum",
+        "maximum",
+        "swing",
+        "sampled_swing",
+        "steady",
+        "tail_temperature",
+        "tail_swing",
+        "zeta_remainder",
+        "zeta_refinement",
+        "ref_min",
+        "ref_max",
+        "ref_swing",
+        "ref_temperature_difference",
+        "ref_swing_difference",
+        "root_tmin",
+        "root_tmax",
+        "root_swing",
+        "root_swing_difference",
+        "root_phase_difference",
+        "derivative_difference",
+        "derivative_residual",
+        "phase_change",
+        "order_change",
+        "history_change",
+        "history_bound",
+        "spatial48_difference",
+        "spatial48_change",
+        "order_swing",
+        "history_swing",
+        "root_brackets",
+        "selected",
+        "endpoint_correction"
+      ],
+      "source_rows": 12
+    },
+    {
+      "path": "runs/correctness_01/work/results/periodic_grid_2.csv",
+      "source_sha256": "e70814322ab314eedca3ea06a2a9ef32b24a713e30a82b891894416812f63b37",
+      "source_bytes": 12391,
+      "method": "literal CSV column selection; retained fields and row order unchanged",
+      "retained_columns": [
+        "j",
+        "L",
+        "profile",
+        "d",
+        "z",
+        "tmin",
+        "tmax",
+        "minimum",
+        "maximum",
+        "swing",
+        "sampled_swing",
+        "steady",
+        "tail_temperature",
+        "tail_swing",
+        "zeta_remainder",
+        "zeta_refinement",
+        "ref_min",
+        "ref_max",
+        "ref_swing",
+        "ref_temperature_difference",
+        "ref_swing_difference",
+        "root_tmin",
+        "root_tmax",
+        "root_swing",
+        "root_swing_difference",
+        "root_phase_difference",
+        "derivative_difference",
+        "derivative_residual",
+        "phase_change",
+        "order_change",
+        "history_change",
+        "history_bound",
+        "spatial48_difference",
+        "spatial48_change",
+        "order_swing",
+        "history_swing",
+        "root_brackets",
+        "selected",
+        "endpoint_correction"
+      ],
+      "source_rows": 12
+    },
+    {
+      "path": "runs/correctness_01/work/results/periodic_grid_3.csv",
+      "source_sha256": "dddc425165c6962fd31b52e71261515f372c10bb16133d663299549782ec116c",
+      "source_bytes": 12391,
+      "method": "literal CSV column selection; retained fields and row order unchanged",
+      "retained_columns": [
+        "j",
+        "L",
+        "profile",
+        "d",
+        "z",
+        "tmin",
+        "tmax",
+        "minimum",
+        "maximum",
+        "swing",
+        "sampled_swing",
+        "steady",
+        "tail_temperature",
+        "tail_swing",
+        "zeta_remainder",
+        "zeta_refinement",
+        "ref_min",
+        "ref_max",
+        "ref_swing",
+        "ref_temperature_difference",
+        "ref_swing_difference",
+        "root_tmin",
+        "root_tmax",
+        "root_swing",
+        "root_swing_difference",
+        "root_phase_difference",
+        "derivative_difference",
+        "derivative_residual",
+        "phase_change",
+        "order_change",
+        "history_change",
+        "history_bound",
+        "spatial48_difference",
+        "spatial48_change",
+        "order_swing",
+        "history_swing",
+        "root_brackets",
+        "selected",
+        "endpoint_correction"
+      ],
+      "source_rows": 12
+    },
+    {
+      "path": "runs/correctness_01/work/results/periodic_grid_4.csv",
+      "source_sha256": "889bddf9e2f1af6bf21db7de240d1a199381156c3ac01765cada86ab52d07482",
+      "source_bytes": 12391,
+      "method": "literal CSV column selection; retained fields and row order unchanged",
+      "retained_columns": [
+        "j",
+        "L",
+        "profile",
+        "d",
+        "z",
+        "tmin",
+        "tmax",
+        "minimum",
+        "maximum",
+        "swing",
+        "sampled_swing",
+        "steady",
+        "tail_temperature",
+        "tail_swing",
+        "zeta_remainder",
+        "zeta_refinement",
+        "ref_min",
+        "ref_max",
+        "ref_swing",
+        "ref_temperature_difference",
+        "ref_swing_difference",
+        "root_tmin",
+        "root_tmax",
+        "root_swing",
+        "root_swing_difference",
+        "root_phase_difference",
+        "derivative_difference",
+        "derivative_residual",
+        "phase_change",
+        "order_change",
+        "history_change",
+        "history_bound",
+        "spatial48_difference",
+        "spatial48_change",
+        "order_swing",
+        "history_swing",
+        "root_brackets",
+        "selected",
+        "endpoint_correction"
+      ],
+      "source_rows": 12
+    },
+    {
+      "path": "runs/correctness_01/work/results/periodic_grid_5.csv",
+      "source_sha256": "682ffba4588139d007f89eb52a97b23f598c51e7ff2b8bddf4689228dc9e9032",
+      "source_bytes": 12391,
+      "method": "literal CSV column selection; retained fields and row order unchanged",
+      "retained_columns": [
+        "j",
+        "L",
+        "profile",
+        "d",
+        "z",
+        "tmin",
+        "tmax",
+        "minimum",
+        "maximum",
+        "swing",
+        "sampled_swing",
+        "steady",
+        "tail_temperature",
+        "tail_swing",
+        "zeta_remainder",
+        "zeta_refinement",
+        "ref_min",
+        "ref_max",
+        "ref_swing",
+        "ref_temperature_difference",
+        "ref_swing_difference",
+        "root_tmin",
+        "root_tmax",
+        "root_swing",
+        "root_swing_difference",
+        "root_phase_difference",
+        "derivative_difference",
+        "derivative_residual",
+        "phase_change",
+        "order_change",
+        "history_change",
+        "history_bound",
+        "spatial48_difference",
+        "spatial48_change",
+        "order_swing",
+        "history_swing",
+        "root_brackets",
+        "selected",
+        "endpoint_correction"
+      ],
+      "source_rows": 12
+    },
+    {
+      "path": "runs/correctness_01/work/results/periodic_grid_6.csv",
+      "source_sha256": "48f84295b4d6211e1263ddd1543d3b92534093ea2d8c0209bbd0913418fcdc3a",
+      "source_bytes": 12391,
+      "method": "literal CSV column selection; retained fields and row order unchanged",
+      "retained_columns": [
+        "j",
+        "L",
+        "profile",
+        "d",
+        "z",
+        "tmin",
+        "tmax",
+        "minimum",
+        "maximum",
+        "swing",
+        "sampled_swing",
+        "steady",
+        "tail_temperature",
+        "tail_swing",
+        "zeta_remainder",
+        "zeta_refinement",
+        "ref_min",
+        "ref_max",
+        "ref_swing",
+        "ref_temperature_difference",
+        "ref_swing_difference",
+        "root_tmin",
+        "root_tmax",
+        "root_swing",
+        "root_swing_difference",
+        "root_phase_difference",
+        "derivative_difference",
+        "derivative_residual",
+        "phase_change",
+        "order_change",
+        "history_change",
+        "history_bound",
+        "spatial48_difference",
+        "spatial48_change",
+        "order_swing",
+        "history_swing",
+        "root_brackets",
+        "selected",
+        "endpoint_correction"
+      ],
+      "source_rows": 12
+    },
+    {
+      "path": "runs/correctness_01/work/results/periodic_grid_7.csv",
+      "source_sha256": "07aff6e722b31d7a1de7d74154dd54b14e762323f5db0514b77452ae7b14ec2f",
+      "source_bytes": 12391,
+      "method": "literal CSV column selection; retained fields and row order unchanged",
+      "retained_columns": [
+        "j",
+        "L",
+        "profile",
+        "d",
+        "z",
+        "tmin",
+        "tmax",
+        "minimum",
+        "maximum",
+        "swing",
+        "sampled_swing",
+        "steady",
+        "tail_temperature",
+        "tail_swing",
+        "zeta_remainder",
+        "zeta_refinement",
+        "ref_min",
+        "ref_max",
+        "ref_swing",
+        "ref_temperature_difference",
+        "ref_swing_difference",
+        "root_tmin",
+        "root_tmax",
+        "root_swing",
+        "root_swing_difference",
+        "root_phase_difference",
+        "derivative_difference",
+        "derivative_residual",
+        "phase_change",
+        "order_change",
+        "history_change",
+        "history_bound",
+        "spatial48_difference",
+        "spatial48_change",
+        "order_swing",
+        "history_swing",
+        "root_brackets",
+        "selected",
+        "endpoint_correction"
+      ],
+      "source_rows": 12
+    },
+    {
+      "path": "runs/correctness_01/work/results/periodic_grid_8.csv",
+      "source_sha256": "c3a3308bd11d2bac75a152bf83a3130b94a9f2fbdb958756fe5d0d7b26f16a73",
+      "source_bytes": 12391,
+      "method": "literal CSV column selection; retained fields and row order unchanged",
+      "retained_columns": [
+        "j",
+        "L",
+        "profile",
+        "d",
+        "z",
+        "tmin",
+        "tmax",
+        "minimum",
+        "maximum",
+        "swing",
+        "sampled_swing",
+        "steady",
+        "tail_temperature",
+        "tail_swing",
+        "zeta_remainder",
+        "zeta_refinement",
+        "ref_min",
+        "ref_max",
+        "ref_swing",
+        "ref_temperature_difference",
+        "ref_swing_difference",
+        "root_tmin",
+        "root_tmax",
+        "root_swing",
+        "root_swing_difference",
+        "root_phase_difference",
+        "derivative_difference",
+        "derivative_residual",
+        "phase_change",
+        "order_change",
+        "history_change",
+        "history_bound",
+        "spatial48_difference",
+        "spatial48_change",
+        "order_swing",
+        "history_swing",
+        "root_brackets",
+        "selected",
+        "endpoint_correction"
+      ],
+      "source_rows": 12
+    },
+    {
+      "path": "runs/correctness_01/work/results/periodic_refinement_union.csv",
+      "source_sha256": "87ae9c67dcb4e9a34c6c34f5582e07014a0d38017bc71956dc93cdd4d82a33cf",
+      "source_bytes": 14375,
+      "method": "literal CSV column selection; retained fields and row order unchanged",
+      "retained_columns": [
+        "j",
+        "L",
+        "profile",
+        "d",
+        "z",
+        "tmin",
+        "tmax",
+        "minimum",
+        "maximum",
+        "swing",
+        "sampled_swing",
+        "steady",
+        "tail_temperature",
+        "tail_swing",
+        "zeta_remainder",
+        "zeta_refinement",
+        "ref_min",
+        "ref_max",
+        "ref_swing",
+        "ref_temperature_difference",
+        "ref_swing_difference",
+        "root_tmin",
+        "root_tmax",
+        "root_swing",
+        "root_swing_difference",
+        "root_phase_difference",
+        "derivative_difference",
+        "derivative_residual",
+        "phase_change",
+        "order_change",
+        "history_change",
+        "history_bound",
+        "spatial48_difference",
+        "spatial48_change",
+        "order_swing",
+        "history_swing",
+        "root_brackets",
+        "selected",
+        "endpoint_correction"
+      ],
+      "source_rows": 14
+    },
+    {
+      "path": "runs/correctness_extra_01/periodic_s5.csv",
+      "source_sha256": "5d12fdfa2ca7926a55fa3a8b7feafe907767cdacb8c02b43ec9bc6f62f2f2e7d",
+      "source_bytes": 2276,
+      "method": "literal CSV column selection; retained fields and row order unchanged",
+      "retained_columns": [
+        "grid_source",
+        "source_row",
+        "j",
+        "L",
+        "profile",
+        "d",
+        "z",
+        "unrounded_swing"
+      ],
+      "source_rows": 12
+    },
+    {
+      "path": "runs/correctness_01/work/results/periodic_summary.txt",
+      "source_sha256": "c16401f93c42d834de1d3ad0b08cf52e266ea0c2d2ebfc52d52042fe30bd07cd",
+      "source_bytes": 1650,
+      "method": "literal selection of thermal/refinement summary lines"
+    },
+    {
+      "path": "runs/correctness_extra_01/refinement_checks.csv",
+      "source_sha256": "d95d4271343dc680ce7a68df7429673208418e592e14235c5337a16bdeae948b",
+      "source_bytes": 175378,
+      "method": "literal selection of thermal/refinement checks"
+    },
+    {
+      "path": "runs/correctness_extra_01/stage_c_support_summary.txt",
+      "source_sha256": "05704e7c1fa261cd9eea126e8457eadf9a0ae61ed2cb00e562925d8146e5f5f1",
+      "source_bytes": 675,
+      "method": "literal omission of duplicated-source-summary note"
+    },
+    {
+      "path": "runs/correctness_01/work/results/precision_summary.txt",
+      "source_sha256": "480283696b732161117e6c77c5788dcc50eacffbbb300af2155e4ea380c7e6c8",
+      "source_bytes": 1142,
+      "method": "literal selection of precision summary records"
+    },
+    {
+      "path": "runs/correctness_extra_01/gaussian_coeff_summary.txt",
+      "source_sha256": "e686bba111177ac4b0a1cc65240cc832cf6fdf1d81bf659a24639559aa96e8be",
+      "source_bytes": 748,
+      "method": "literal selection of coefficient summary records"
+    },
+    {
+      "path": "runs/correctness_01/work/results/periodic_unit.txt",
+      "source_sha256": "ee23840bf746ab5051eb0aa6163e8d192a28c70590c69aedb498f671c9d15815",
+      "source_bytes": 1564,
+      "method": "replace output title only; every numerical record unchanged"
+    },
+    {
+      "path": "runs/correctness_01/process_journal.jsonl",
+      "source_sha256": "ba2c202cbf8a8bc0ba909ebfef66cf960fa0ff221ba92add136ae0b026f01711",
+      "source_bytes": 14077,
+      "method": "literal removal of working_directory field; all execution records retained"
+    }
+  ],
+  "case_key_selections": [
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/rows/deficit_original_0001_N1.csv",
+      "source_sha256": "4bae2e111b52ecb0f003f42bdf3b30b2f6ab40c78f7c7e14080ce39339bb29ed",
+      "source_bytes": 9308,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 24
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/rows/paper_0016_N10.csv",
+      "source_sha256": "4a89074b92e168f09fb31bd02b903d1db8a08e5b16027b85295db4464d6c07d1",
+      "source_bytes": 8416,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 22
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/rows/paper_0016_N100.csv",
+      "source_sha256": "6e747f74e723f53b62f15cf88d032f45317ad41fff0565d6c40a484c514b2612",
+      "source_bytes": 8128,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 22
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/rows/paper_0036_N10.csv",
+      "source_sha256": "2d355bcf5870431690ab73d743a6f87fd0f184658ca482b95fa6729f31eaed02",
+      "source_bytes": 9876,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 26
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/rows/paper_0036_N100.csv",
+      "source_sha256": "b58112a4c303f803b599194ab25dc44265e65efe4fefc541d876103f34ae2fef",
+      "source_bytes": 8838,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 24
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/rows/paper_0076_N10.csv",
+      "source_sha256": "f52fae5b363ef088d25310322a40330f9c671cfdeaa0d0ad3218b0c338c4270c",
+      "source_bytes": 8424,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 22
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/rows/paper_0076_N100.csv",
+      "source_sha256": "498931f981d0b5cb0954279555e40fae3557bd340e5882e1c091bc6a89e5a05a",
+      "source_bytes": 8136,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 22
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/rows/temperature_scale_0047_N1.csv",
+      "source_sha256": "8bb622ea634849e87dace9df1e15b6a76d21d67d155ce850318b7f984e03998f",
+      "source_bytes": 9470,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 24
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/rows/temperature_scale_0047_N10.csv",
+      "source_sha256": "111f9fc735c0630c5be107a1e0f9226ac9402270dfa75bc8afd8b577bd52e503",
+      "source_bytes": 4826,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 12
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/rows/temperature_scale_0047_N100.csv",
+      "source_sha256": "b1e63aa50bd7a425af299e525fcd9dc8092a615d50c232853d4ad71d448ea716",
+      "source_bytes": 4826,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 12
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/rows/temperature_scale_0048_N1.csv",
+      "source_sha256": "4cdfb3c55abc18eff97c87655af4970dd32b7cb906123dd2851589b596474d7c",
+      "source_bytes": 9470,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 24
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/rows/temperature_scale_0048_N10.csv",
+      "source_sha256": "e4551816624e73e79ace2498c97a67b8b42f03bddf18f04a5447380fc0c22e2f",
+      "source_bytes": 4826,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 12
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/rows/temperature_scale_0048_N100.csv",
+      "source_sha256": "8bf81cc690e29fba2ce7bd8b8318ded4aba1a3e7240287f58bda470803794c44",
+      "source_bytes": 4826,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 12
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/rows/temperature_scale_0096_N1.csv",
+      "source_sha256": "376d2baa74251995746de23ff94d69c6d79bfc9c7efa35a88b1551a59e891478",
+      "source_bytes": 22922,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 60
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/values/deficit_original_0001_N1.csv",
+      "source_sha256": "c05f867322ca30863d345adb9a40418cfc914855cff4410c12f9c8f292adaca9",
+      "source_bytes": 97543,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 600
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/values/paper_0016_N10.csv",
+      "source_sha256": "2c4065e1cc030488138a113192bae399cc6473a4ed35aeaae0ecc075fa7eb169",
+      "source_bytes": 157338,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 990
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/values/paper_0016_N100.csv",
+      "source_sha256": "a5332428d4fee108ef6216ff6348dbebcecd9ad28cf911e15bcb1e5a6cfb9fa7",
+      "source_bytes": 1582569,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 9900
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/values/paper_0036_N10.csv",
+      "source_sha256": "556157fd13a1aaa2ee70f5a900330e57d72fb1375b03a86599556c41556810c0",
+      "source_bytes": 182700,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 1170
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/values/paper_0036_N100.csv",
+      "source_sha256": "c4a562dbefc9c347028b0f18735aa75b2ee261f3c2ed088ac38cdf8f7eb58738",
+      "source_bytes": 1700661,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 10800
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/values/paper_0076_N10.csv",
+      "source_sha256": "c23efac51acf78d9c463411466986486e814eb2f83cee3f4155c5a5edb0c1413",
+      "source_bytes": 154878,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 990
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/values/paper_0076_N100.csv",
+      "source_sha256": "36319256100db213ab362710edc4a94212b7b5302c07256e668a14cbb4e40b26",
+      "source_bytes": 1557969,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 9900
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/values/temperature_scale_0047_N1.csv",
+      "source_sha256": "962346ab4058fa9ab607509c9ac8a5bae50a81a7dbc7631b4c5d4582ee202633",
+      "source_bytes": 6225,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 36
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/values/temperature_scale_0047_N10.csv",
+      "source_sha256": "b85d37b7a7c051e266212265cfa205437f392662ba2f9d518f597d53fedc904c",
+      "source_bytes": 30363,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 180
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/values/temperature_scale_0047_N100.csv",
+      "source_sha256": "57d04684104ad68d449a0ea6c6b6b6e8262f8a2c4fdc4dcc426649cd13f9f3c4",
+      "source_bytes": 304809,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 1800
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/values/temperature_scale_0048_N1.csv",
+      "source_sha256": "26b383b4e7cee4e4639503c76de3e4cadf79086e2bccd605247139491786b164",
+      "source_bytes": 6225,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 36
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/values/temperature_scale_0048_N10.csv",
+      "source_sha256": "9fde4a7500b4f8adf8a69812ef3b06698bf181a65e5628551baf2937270b1672",
+      "source_bytes": 30363,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 180
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/values/temperature_scale_0048_N100.csv",
+      "source_sha256": "c507a294f9046883760b33a0b6c3772e330dae9d8a4a76435bf879487024bbf7",
+      "source_bytes": 304809,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 1800
+    },
+    {
+      "path": "runs/paper_minimum_remaining_inputs_01/values/temperature_scale_0096_N1.csv",
+      "source_sha256": "20b18c571e148c69e7337cd06c9c071aa01c126ca0e6d101d627d0fccdb2ea1a",
+      "source_bytes": 15336,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 90
+    },
+    {
+      "path": "runs/stage_d_candidates_01/poly_paper/coarse_rows.csv",
+      "source_sha256": "ba085ed477122356f214ada1e7ae01e89e943569d75daf32bc66e1d8375df82d",
+      "source_bytes": 41979771,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 2284
+    },
+    {
+      "path": "runs/stage_d_candidates_01/poly_paper/coarse_values.csv",
+      "source_sha256": "783b0c4523204f3d83ca8347c3d22227536308f2dd23beb4233110e9c1845085",
+      "source_bytes": 79872957,
+      "method": "literal case/key union from all 114 task rows; unchanged headers and retained lines",
+      "retained_data_rows": 10278
+    }
+  ],
+  "recorded_toolchain": {
+    "platform": "Apple Silicon macOS / Apple M4 Pro",
+    "compiler": "GNU Fortran 15.2.0",
+    "flags": "-O3 -march=native; no fast-math",
+    "MPFR": "4.2.2",
+    "GMP": "6.3.0",
+    "LAPACK": "macOS Accelerate DGESVD",
+    "file_identities": [
+      {
+        "file": "gfortran-15",
+        "sha256": "0784ca5eb133cde6a2112eddb4000eb36c9d60eae1b18df1c1ba52fe97737492"
+      },
+      {
+        "file": "f951",
+        "sha256": "d8af98081238cd75f31423e57016042993857b2de4bb9ad8144d43a05395ab27"
+      },
+      {
+        "file": "libgfortran.5.dylib",
+        "sha256": "624e083bf9ebdcd8c6713ef8adaf1aa49ec2a1756cd0dbaed553fd48fc3e6950"
+      },
+      {
+        "file": "libquadmath.0.dylib",
+        "sha256": "773034db811835ca98358409e647c46a97cb9dc3f4fbb6956c858e5a31cdf580"
+      },
+      {
+        "file": "libgmp.10.dylib",
+        "sha256": "14123464af436d67ef69114810aa9e1e74de50e4097166fe8c110397b3ba6961"
+      },
+      {
+        "file": "libmpfr.6.dylib",
+        "sha256": "1b151049a88e86e245c300f129ebd13e2915ebc66658e59540b0223a31ddcd8e"
+      }
+    ]
+  },
+  "stored_report_reconstruction": {
+    "description": "Previously recorded byte equality of Fortran reductions from saved inputs; not a new execution on this machine",
+    "original_receipt_sha256": "3f41d3f19395c7b32eff369b8caf2088ab28fb3f47c4c7f0239ed0926a27e4f7",
+    "reports": [
+      {
+        "path": "runs/paper_minimum_aggregate_02/cpu_uniform_N1_report.md",
+        "sha256": "38e123dd5bb389be73eefb3207bdbf373a9dd64870a480a1bf0ad3f9d6d60efd",
+        "reconstructed_sha256": "38e123dd5bb389be73eefb3207bdbf373a9dd64870a480a1bf0ad3f9d6d60efd",
+        "byte_identical": true
+      },
+      {
+        "path": "runs/paper_minimum_aggregate_02/cpu_repeat100_report.md",
+        "sha256": "bc82f0ce8a08ed0af9be3583beb510f37ebba424ea0737eacac4d191d42059ee",
+        "reconstructed_sha256": "bc82f0ce8a08ed0af9be3583beb510f37ebba424ea0737eacac4d191d42059ee",
+        "byte_identical": true
+      },
+      {
+        "path": "runs/paper_minimum_aggregate_02/cpu_repeat10_report.md",
+        "sha256": "316ef490c2770674576f2f7ecf11e0626faee6b9b71b11606fe344f88f0902ec",
+        "reconstructed_sha256": "316ef490c2770674576f2f7ecf11e0626faee6b9b71b11606fe344f88f0902ec",
+        "byte_identical": true
+      },
+      {
+        "path": "runs/paper_minimum_aggregate_02/cpu_deficit_report.md",
+        "sha256": "227f64551b8651bea53f002cd2cad657b510f88b3a0157f765469111c923f8b6",
+        "reconstructed_sha256": "227f64551b8651bea53f002cd2cad657b510f88b3a0157f765469111c923f8b6",
+        "byte_identical": true
+      },
+      {
+        "path": "runs/paper_minimum_aggregate_02/cpu_deep_Q_report.md",
+        "sha256": "8743641dc9651b7a9f590ba9224b462875ae2c3fd3725e6f4bc1b4f93380c79a",
+        "reconstructed_sha256": "8743641dc9651b7a9f590ba9224b462875ae2c3fd3725e6f4bc1b4f93380c79a",
+        "byte_identical": true
+      },
+      {
+        "path": "runs/paper_minimum_aggregate_02/cpu_budget3_report.md",
+        "sha256": "2f56b174f3bcb7bfbf07a53a411a1df4bf8e3e91f1089d5754c2bd361c0c15e9",
+        "reconstructed_sha256": "2f56b174f3bcb7bfbf07a53a411a1df4bf8e3e91f1089d5754c2bd361c0c15e9",
+        "byte_identical": true
+      },
+      {
+        "path": "runs/paper_minimum_aggregate_02/cpu_shared7_report.md",
+        "sha256": "bd986fe175e8da6c5594b1b6f5b9c2408ffdfd6a5c0b4dc6dbed118d83f27434",
+        "reconstructed_sha256": "bd986fe175e8da6c5594b1b6f5b9c2408ffdfd6a5c0b4dc6dbed118d83f27434",
+        "byte_identical": true
+      },
+      {
+        "path": "runs/paper_minimum_aggregate_02/cpu_main100_report.md",
+        "sha256": "f1f7cf53f98946b1ff3a6d13372a0b3350867872430008f483c957c4be9267bd",
+        "reconstructed_sha256": "f1f7cf53f98946b1ff3a6d13372a0b3350867872430008f483c957c4be9267bd",
+        "byte_identical": true
+      },
+      {
+        "path": "runs/paper_minimum_aggregate_02/wall_uniform_N1_report.md",
+        "sha256": "b5e3cc27380a4ac896a95fcd9013e9b83b20110dab71a48d94b5c5c6cea449dc",
+        "reconstructed_sha256": "b5e3cc27380a4ac896a95fcd9013e9b83b20110dab71a48d94b5c5c6cea449dc",
+        "byte_identical": true
+      },
+      {
+        "path": "runs/paper_minimum_aggregate_02/wall_repeat100_report.md",
+        "sha256": "95121ab9ec722292ca97b7ef7cea941f3aa300cf02d49715e46ea47306e0eb4a",
+        "reconstructed_sha256": "95121ab9ec722292ca97b7ef7cea941f3aa300cf02d49715e46ea47306e0eb4a",
+        "byte_identical": true
+      },
+      {
+        "path": "runs/paper_minimum_aggregate_02/wall_repeat10_report.md",
+        "sha256": "38a4cef57c366895a494b3058065e87b9c8439edb1c977c322b30e965536a1c2",
+        "reconstructed_sha256": "38a4cef57c366895a494b3058065e87b9c8439edb1c977c322b30e965536a1c2",
+        "byte_identical": true
+      },
+      {
+        "path": "runs/paper_minimum_aggregate_02/wall_deficit_report.md",
+        "sha256": "cbb5598a4511a54663a7f624c61dd56fa117f910c30ea5fb0d1ccf04f2ac036f",
+        "reconstructed_sha256": "cbb5598a4511a54663a7f624c61dd56fa117f910c30ea5fb0d1ccf04f2ac036f",
+        "byte_identical": true
+      },
+      {
+        "path": "runs/paper_minimum_aggregate_02/wall_deep_Q_report.md",
+        "sha256": "de777829bb97d3842576bf74ea549dfe6c33e7efba50e7e5ed83ea575a10b25f",
+        "reconstructed_sha256": "de777829bb97d3842576bf74ea549dfe6c33e7efba50e7e5ed83ea575a10b25f",
+        "byte_identical": true
+      },
+      {
+        "path": "runs/paper_minimum_aggregate_02/wall_budget3_report.md",
+        "sha256": "f31e0535b58563ff185e1193ae348e26dd9f5e852360a580fd3111a9fcf5613e",
+        "reconstructed_sha256": "f31e0535b58563ff185e1193ae348e26dd9f5e852360a580fd3111a9fcf5613e",
+        "byte_identical": true
+      },
+      {
+        "path": "runs/paper_minimum_aggregate_02/wall_shared7_report.md",
+        "sha256": "2fe62eebe8ac5aeea418166f42274c24c1beb75d4f74b383a945381a12272d6b",
+        "reconstructed_sha256": "2fe62eebe8ac5aeea418166f42274c24c1beb75d4f74b383a945381a12272d6b",
+        "byte_identical": true
+      },
+      {
+        "path": "runs/paper_minimum_aggregate_02/wall_main100_report.md",
+        "sha256": "f76f8c75e9bbb7b36ff8fcfe8230ed1a133cddc82197adaf0eb23a2bf77f484d",
+        "reconstructed_sha256": "f76f8c75e9bbb7b36ff8fcfe8230ed1a133cddc82197adaf0eb23a2bf77f484d",
+        "byte_identical": true
+      }
+    ]
+  }
+}
