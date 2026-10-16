@@ -78,8 +78,8 @@
       ],
       "caption": "Stored response-time ratios for uniform and biquadratic surface temperatures. Both coordinates are native saved scalar fields, without root or ratio recomputation.",
       "outputs": {
-        "figures/figure3.png": "a4bdb70820430a483c33adec466dc65c3dd2b5c9a5510562f3e48cdc4a849c02",
-        "figures/figure3.pdf": "e140c8c16ed6d37b7a54591926a438b247f6458f42ec0cd706ad7e052472a0f8"
+        "figures/figure3.png": "d93c8a2981fe32814f9128918e177c30650d8d3dc6f614499d4a9591239108c4",
+        "figures/figure3.pdf": "cb8eeb5ded7f9e08a5d018ef14f60540758f3d42971b69955a66cfed473ec0ef"
       }
     },
     "figure4": {
@@ -4017,7 +4017,7 @@
   },
   "renderer": {
     "path": "tools/render_figures.py",
-    "sha256": "d8e8f029a7bd4657035f5c756ef5aaa08eab825bc70ba24c64864f4bdf5f83ba",
+    "sha256": "69050fde7705bb14d7ed6b5bdeb8b1607d516594495965ebceb067643eabe5d8",
     "recorded_sha256": "773201dc39aea8cbfdf9b1c84750d7c7bcd7fd6a8f4e6b4d235c5521811deb66"
   }
 }

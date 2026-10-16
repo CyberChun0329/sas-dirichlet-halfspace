@@ -117,7 +117,7 @@ def figure3():
         ax.plot(numbers(rr, "ln_z"), numbers(rr, "SAS_t90_over_z2"), color=color,
                 ls=style, label=label, lw=1.6)
     ax.set(xlabel=r"$\ln z$", ylabel=r"$t_{90}/z^2$",
-           title=r"Centerline response: $L_x=2$, $L_y=1.5$, $\alpha=1$")
+           title=r"Centreline response: $L_x=2$, $L_y=1.5$, $\alpha=1$")
     ax.legend(frameon=False)
     simple_axes(ax)
     save(fig, "figure3", {"sources": [f"R/case3_grid_{i}.csv" for i in range(1, 9)],
