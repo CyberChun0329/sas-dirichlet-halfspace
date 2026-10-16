@@ -129,8 +129,8 @@
     },
     {
       "path": "PAPER_RESULTS.md",
-      "bytes": 4540,
-      "sha256": "2cc37dd3e594f9f0778bef17c2af1da2a779df275f5b5017220ade8acfafcefa"
+      "bytes": 4242,
+      "sha256": "66ee1943aab18274295879262aefc28dc583d029172050718d7bd4ab344bfe54"
     },
     {
       "path": "provenance/figure_sources.json",
@@ -149,8 +149,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2808,
-      "sha256": "c885d28db3ec36c4cea2faf554db03bd7b9613fc8ff880632313f3d7df3eb6d0"
+      "bytes": 2757,
+      "sha256": "9d621bcf4a7ca08cb8bf288f479eedc4eb7fa045553e3e52141a07aadb72eb29"
     },
     {
       "path": "REPRODUCING.md",

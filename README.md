@@ -29,8 +29,7 @@ Fortran, MPFR/GMP and Accelerate; see [DEPENDENCIES.md](DEPENDENCIES.md).
   96-depth input grid and 14-depth refinement subset.
 - The explicit 100-case low-degree performance collection, repeated queries,
   accumulated-deficit benchmark, deep uniform and deep-Q controls.
-- Seven measured one-dimensional spatial comparisons and their ALL_SPACE union,
-  with the recorded comparison states.
+- Analytical-axis cross-checks of the performance reference values.
 - Native timing windows, separate preparation/query/total observations,
   selected correctness values/references, finite-budget records and all six
   manuscript/supplement figures.

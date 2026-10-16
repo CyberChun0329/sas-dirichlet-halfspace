@@ -16,7 +16,6 @@ and `A` denote `runs/paper_minimum_aggregate_02`.
 | Table S2 | V/table_s2.csv | validation_driver |
 | Table S3; validation/precision counts | V/stability.csv, core_summary.txt, precision.csv, precision_summary.txt and companion regressions | validation_driver; precision_driver; summarize_validation |
 | Table S7, preparation and N=1/10/100 | A/cpu_repeat10_comparisons.csv, cpu_repeat100_comparisons.csv, preparation.csv and matching N1 main rows | targeted_driver; replay_summary |
-| Table S8; stronger spatial routes | A/cpu_shared7_comparisons.csv | targeted_driver; replay_summary |
 | Figure S1; deep/long-time reversal | A/cpu_deep_Q_comparisons.csv, cpu_deep_Q_budgets.csv | targeted_driver; replay_summary |
 | Deep uniform diffusion-scale comparisons | A/cpu_uniform_N1_comparisons.csv; repeat batches | targeted_driver; replay_summary |
 
@@ -27,9 +26,7 @@ distributed figures are in `figures/`. Regenerated images go to `build/`.
 ## Scope and interpretation
 
 The main comparator is the preprocessed, analytically time-integrated
-**two-dimensional** spatial kernel. Seven selected cases also measure SHARED_1D;
-ALL_SPACE is only the union of actually measured non-SAS keys in those cases,
-not all possible spatial algorithms or a 100-case one-dimensional comparison.
+**two-dimensional** spatial kernel.
 
 ACTUAL_ERROR pairs match same-order **observed** error; they are not the same as
 TARGET pairs under a loose error cap. QUERY reuses prepared contexts. TOTAL
@@ -45,7 +42,7 @@ unavailable intervals, finite endpoints, conservative directions and crossings
 remain relevant; selected large gains are not continuous optimal-frontier bounds.
 
 The independent validation kernel is separate from SAS. Performance references
-are independent of SAS but share implementation with some spatial routes; their
+do not call the SAS evaluator but share implementation with some spatial routes; their
 refinement floors are empirical, not rigorous true-error certificates. Periodic
 extrema are numerically refined, not interval-certified. The periodic validation
 covers 96 depths; additional refinement covers the 12 table depths and two depths
